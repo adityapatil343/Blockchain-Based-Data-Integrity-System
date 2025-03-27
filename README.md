@@ -28,7 +28,7 @@ This project is a **decentralized data integrity verification system** that uses
 - `Solidity` for writing smart contracts
 - `Remix IDE` for smart contract deployment and interaction (easy for beginners)
 - `Polygon Blockchain` for CID registration
-- `PolygonScan` (or any explorer) for on-chain CID verification
+- `PolygonScan` (blockchain explorer) for on-chain CID verification
 
 ---
 
