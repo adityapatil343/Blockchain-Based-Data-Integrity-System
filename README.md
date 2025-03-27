@@ -104,6 +104,13 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
   - Call the `storedCID` function to verify the stored CID
 
 ---
+## Step 5: (Optional) Decrypt Encrypted File
+Once the CID is verified and you've downloaded the encrypted file from IPFS, use the following command to decrypt:
+
+    python decrypt.py your_file.txt.enc
+    
+🔑 Make sure to use the same AES key used during encryption.
+
 
 ## 🔐 Data Security Flow
 
