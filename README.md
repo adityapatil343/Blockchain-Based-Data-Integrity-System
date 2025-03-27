@@ -81,12 +81,12 @@ and paste .sol code (edit it using your data)
 
 3. After deployment:
    - Expand the deployed contract panel
-   - Use `storeCID()` to **submit your IPFS CID**
-   - Use `storedCID()` to **read the stored value**
+   - Use `storeCID()` `storename()` to **submit your IPFS CID & FILE NAME**
+   - Use `storedCID()` `storedname()` to **read the stored value**
 
 4. Go to the respective blockchain explorer:
-   - Search your **contract address**
-   - View the stored CID under **Read Contract > storedCID**
+   - i) Search your **contract address** and checkout Events section
+   - ii) remix ide: View the stored CID under **Read Contract > storedCID**
 
 🛡️ **Your CID is now permanently and publicly stored on the blockchain!**
 
@@ -100,8 +100,8 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
 - Match the file content or compare hashes to verify integrity  
 - If you stored the CID on blockchain:
   - Go to [PolygonScan](https://polygonscan.com) or [Mumbai Explorer](https://mumbai.polygonscan.com)
-  - Search your **smart contract address**
-  - Call the `storedCID` function to verify the stored CID
+  - Search your **smart contract address** and check Events section
+  - if you wanna verify on remix ide: Call the `storedCID` function to verify the stored CID
 
 ---
 ## Step 5: (Optional) Decrypt Encrypted File
