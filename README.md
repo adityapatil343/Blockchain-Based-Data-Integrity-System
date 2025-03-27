@@ -38,8 +38,7 @@ This project is a **decentralized data integrity verification system** that uses
 
 Use Python's `cryptography` library to encrypt your file before uploading.
 
-```bash
-python encrypt.py your_file.txt
+    python encrypt.py your_file.txt
 
 ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
 
