@@ -32,6 +32,7 @@ This project is a **decentralized data integrity verification system** that uses
 
 ---
 
+
 ## 🧭 Project Workflow
 
 ### ✅ Step 1: (Optional) Encrypt File using AES
@@ -46,6 +47,9 @@ Enter a 5-character key (like a1b2C, 12345, aaaaa, or yy9zz)
 It will encrypt or decrypt accordingly 🎉
 
 ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
+
+
+---
 
 ## 📤 Step 2: Upload Encrypted File to IPFS using Pinata WebApp
 
@@ -95,6 +99,7 @@ and paste .sol code(contract create) (edit it using your data)
 
 🛡️ **Your CID is now permanently and publicly stored on the blockchain!**
 
+
 ---
 
 ## 🔍 Step 4: Verify Data Integrity
@@ -108,6 +113,7 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
   - Search your **smart contract address** and check Events section
   - if you wanna verify on remix ide: Call the `storedCID` function to verify the stored CID
 
+
 ---
 ## Step 5: (Optional) Decrypt Encrypted File
 Once the CID is verified and you've downloaded the encrypted file from IPFS, use the following command to decrypt:
@@ -116,6 +122,7 @@ Once the CID is verified and you've downloaded the encrypted file from IPFS, use
     
 🔑 Make sure to use the same AES key used during encryption.
 
+---
 
 ## 🔐 Data Security Flow
 
