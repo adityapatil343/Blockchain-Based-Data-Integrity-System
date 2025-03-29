@@ -8,7 +8,7 @@ This project is a **decentralized data integrity verification system** that uses
 - ✅ **Content verification** using blockchain explorer (e.g., PolygonScan / Etherscan)
 
 ---
-## Use Project Report.docx for better understanding. (Download and open it using any PDF or Word file viewer.) ✅
+## ✅ Use Project Report.docx for better understanding. (Download and open it using any PDF or Word file viewer.) ✅
 ---
 ## 📌 Features
 
