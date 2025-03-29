@@ -38,7 +38,12 @@ This project is a **decentralized data integrity verification system** that uses
 
 Use Python's `cryptography` library to encrypt your file before uploading.
 
-    python encrypt.py your_file.txt
+    python3 AES.py
+
+Choose option 1 or 2
+Select a file from your system
+Enter a 5-character key (like a1b2C, 12345, aaaaa, or yy9zz)
+It will encrypt or decrypt accordingly 🎉
 
 ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
 
@@ -107,7 +112,7 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
 ## Step 5: (Optional) Decrypt Encrypted File
 Once the CID is verified and you've downloaded the encrypted file from IPFS, use the following command to decrypt:
 
-    python decrypt.py your_file.txt.enc
+    python3 AES.py
     
 🔑 Make sure to use the same AES key used during encryption.
 
