@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract DataIntegrity {
+    mapping(string => string) public storedHashes;
+
+    event HashStored(string cid, string name); // Remove 'indexed' from CID
+
+    constructor() {
+        storeCID("bafkreif5hutq7wx4pson7xpryib6q7fsao7sxirec32iisbi5rspgugqsy", "testICCS");
+    }
+
+    function storeCID(string memory cid, string memory name) public {
+        require(bytes(storedHashes[cid]).length == 0, "CID already exists");
+        storedHashes[cid] = name;
+        emit HashStored(cid, name);
+    }
+
+    function verifyCID(string memory cid) public view returns (string memory) {
+        require(bytes(storedHashes[cid]).length != 0, "CID not found");
+        return storedHashes[cid];
+    }
+}
