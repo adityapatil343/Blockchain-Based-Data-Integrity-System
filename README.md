@@ -69,7 +69,7 @@ After upload, you'll get an **IPFS CID** like: <QmTzQ1dU8m3vC5RQjV5zsdVxzyRzv2Yw
 1. Visit [https://remix.ethereum.org](https://remix.ethereum.org)
 2. Create a new file (e.g., `StoreCID.sol`) and paste the following Solidity code:
 
-and paste .sol code (edit it using your data)
+and paste .sol code(contract create) (edit it using your data)
 
 ### ⚙️ Remix IDE Steps (Smart Contract Deployment)
 
