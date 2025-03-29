@@ -32,10 +32,11 @@ This project is a **decentralized data integrity verification system** that uses
 - `PolygonScan` (blockchain explorer) for on-chain CID verification
 
 ---
+---
 
 ## 🧭 Project Workflow
 
-### ✅ Step 1: (Optional) Encrypt File using AES
+## ✅ Step 1: (Optional) Encrypt File using AES
 
 Use Python's `cryptography` library to encrypt your file before uploading.
 
