@@ -65,8 +65,6 @@ After upload, you'll get an **IPFS CID** like: <QmTzQ1dU8m3vC5RQjV5zsdVxzyRzv2Yw
 
 ## ⛓️ Step 3: Store CID on Blockchain using Smart Contract (via Remix IDE)
 
-> Optional but recommended for transparent, verifiable storage.
-
 ### 🔧 Deploying Smart Contract with Remix IDE
 
 1. Visit [https://remix.ethereum.org](https://remix.ethereum.org)
