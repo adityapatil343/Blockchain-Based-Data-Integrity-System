@@ -1,6 +1,9 @@
 # 🔐 Blockchain-Based Data Integrity System 
+## ✅ Use Project Report.docx for better understanding. (Download and open it using any PDF or Word file viewer.) ✅
 
-This project is a **decentralized data integrity verification system** that uses:
+---
+
+## 📌 Features:
 
 1. [Optional] Encrypt File – Using AES encryption for data privacy.
 2. Upload to IPFS – Via Pinata WebApp for decentralized storage.
@@ -8,18 +11,6 @@ This project is a **decentralized data integrity verification system** that uses
 4. Store CID on Blockchain – For immutability and public verification (e.g., Polygon).
 5. Retrieve File using CID – Anyone with the CID can access the exact file from IPFS.
 6. Verify – Confirm data authenticity using blockchain explorers like PolygonScan or Etherscan.
-
----
-## ✅ Use Project Report.docx for better understanding. (Download and open it using any PDF or Word file viewer.) ✅
----
-
-## 📌 Features
-
-- Encrypt any file using AES before sharing (optional)
-- Upload to decentralized storage using IPFS via Pinata
-- Store and verify IPFS CID on blockchain
-- Maintain confidentiality, tamper-proofing, and traceability
-- CID can be publicly viewed via blockchain explorer for transparency
 
 ---
 
@@ -37,7 +28,7 @@ This project is a **decentralized data integrity verification system** that uses
 ---
 ---
 
-## 🧭 Project Workflow
+# 🧭 Project Workflow
 
 ## ✅ Step 1: (Optional) Encrypt File using AES
 
