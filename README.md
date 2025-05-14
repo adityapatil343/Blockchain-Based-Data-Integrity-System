@@ -1,8 +1,6 @@
 # 🔐 Blockchain-Based Data Integrity System 
 ## ✅ Use Project Report.docx for better understanding. (Download and open it using any PDF or Word file viewer.) ✅
 
----
-
 ## 📌 Features:
 
 1. [Optional] Encrypt File – Using AES encryption for data privacy.
@@ -11,8 +9,6 @@
 4. Store CID on Blockchain – For immutability and public verification (e.g., Polygon).
 5. Retrieve File using CID – Anyone with the CID can access the exact file from IPFS.
 6. Verify – Confirm data authenticity using blockchain explorers like PolygonScan or Etherscan.
-
----
 
 ## 🛠️ Technologies Used
 
@@ -25,7 +21,6 @@
 - `Polygon Blockchain` for CID registration
 - `PolygonScan` (blockchain explorer) for on-chain CID verification
 
----
 ---
 
 # 🧭 Project Workflow
@@ -43,8 +38,6 @@ It will encrypt or decrypt accordingly 🎉
 
 ### ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
 
----
-
 ## 📤 Step 2: Upload Encrypted File to IPFS using Pinata WebApp
 
 1. Go to [https://app.pinata.cloud](https://app.pinata.cloud)
@@ -54,8 +47,6 @@ It will encrypt or decrypt accordingly 🎉
 5. Upload it
 
 After upload, you'll get an **IPFS CID** like: <QmTzQ1dU8m3vC5RQjV5zsdVxzyRzv2Yw9B9oP2C1WnZqhB>
-
----
 
 ## ⛓️ Step 3: Store CID on Blockchain using Smart Contract (via Remix IDE)
 
@@ -90,8 +81,6 @@ and paste .sol code(contract create) (edit it using your data)
 
 🛡️ **Your CID is now permanently and publicly stored on the blockchain!**
 
----
-
 ## 🔍 Step 4: Verify Data Integrity
 
 Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.cloud/ipfs/YourCID
@@ -103,8 +92,6 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
   - Search your **smart contract address** and check Events section
   - if you wanna verify on remix ide: Call the `storedCID` function to verify the stored CID
 
----
-
 ## Step 5: (Optional) Decrypt Encrypted File
 Once the CID is verified and you've downloaded the encrypted file from IPFS, use the following command to decrypt:
 
@@ -112,13 +99,9 @@ Once the CID is verified and you've downloaded the encrypted file from IPFS, use
     
 🔑 Make sure to use the same AES key used during encryption.
 
----
-
 ## 🔐 Data Security Flow
 
 [Encrypt File] → [Upload to IPFS via Pinata] → [Get CID] → [Store CID on Blockchain] → [Verify CID anytime] → [Retrieve File using CID anytime]
-
----
 
 ## 📩💬 – Contact Me
 
