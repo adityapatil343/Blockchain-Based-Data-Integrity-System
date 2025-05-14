@@ -101,7 +101,10 @@ Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.c
   - Search your **smart contract address** and check Events section
   - if you wanna verify on remix ide: Call the `storedCID` function to verify the stored CID
 
-## Step 5: (Optional) Decrypt Encrypted File
+<br>
+
+## ✅ Step 5: (Optional) Decrypt Encrypted File
+
 Once the CID is verified and you've downloaded the encrypted file from IPFS, use the following command to decrypt:
 
     python3 AES.py
