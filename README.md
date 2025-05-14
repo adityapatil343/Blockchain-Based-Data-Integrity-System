@@ -38,6 +38,8 @@ It will encrypt or decrypt accordingly 🎉
 
 ### ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
 
+<br>
+
 ## 📤 Step 2: Upload Encrypted File to IPFS using Pinata WebApp
 
 1. Go to [https://app.pinata.cloud](https://app.pinata.cloud)
@@ -47,6 +49,8 @@ It will encrypt or decrypt accordingly 🎉
 5. Upload it
 
 After upload, you'll get an **IPFS CID** like: <QmTzQ1dU8m3vC5RQjV5zsdVxzyRzv2Yw9B9oP2C1WnZqhB>
+
+<br>
 
 ## ⛓️ Step 3: Store CID on Blockchain using Smart Contract (via Remix IDE)
 
@@ -81,6 +85,8 @@ and paste .sol code(contract create) (edit it using your data)
 
 🛡️ **Your CID is now permanently and publicly stored on the blockchain!**
 
+<br>
+
 ## 🔍 Step 4: Verify Data Integrity
 
 Use the CID to retrieve the file from any IPFS gateway: https://gateway.pinata.cloud/ipfs/YourCID
@@ -98,6 +104,8 @@ Once the CID is verified and you've downloaded the encrypted file from IPFS, use
     python3 AES.py
     
 🔑 Make sure to use the same AES key used during encryption.
+
+---
 
 ## 🔐 Data Security Flow
 
