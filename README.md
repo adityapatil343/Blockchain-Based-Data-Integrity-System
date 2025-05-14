@@ -41,7 +41,7 @@ Select a file from your system
 Enter a 5-character key (like a1b2C, 12345, aaaaa, or yy9zz)
 It will encrypt or decrypt accordingly 🎉
 
-⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
+### ⚠️ Save your AES key securely. You’ll need it to decrypt the file later.
 
 ---
 
