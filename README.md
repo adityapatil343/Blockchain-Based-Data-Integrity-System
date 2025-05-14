@@ -24,6 +24,9 @@
 ---
 
 # 🧭 Project Workflow
+[Encrypt File] → [Upload to IPFS via Pinata] → [Get CID] → [Store CID on Blockchain] → [Verify CID anytime] → [Retrieve File using CID anytime]
+
+<br>
 
 ## ✅ Step 1: (Optional) Encrypt File using AES
 
@@ -106,10 +109,7 @@ Once the CID is verified and you've downloaded the encrypted file from IPFS, use
 🔑 Make sure to use the same AES key used during encryption.
 
 ---
-
-## 🔐 Data Security Flow
-
-[Encrypt File] → [Upload to IPFS via Pinata] → [Get CID] → [Store CID on Blockchain] → [Verify CID anytime] → [Retrieve File using CID anytime]
+<br>
 
 ## 📩💬 – Contact Me
 
