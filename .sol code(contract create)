@@ -7,7 +7,7 @@ contract DataIntegrity {
     event HashStored(string cid, string name); // Remove 'indexed' from CID
 
     constructor() {
-        storeCID("bafkreif5__DEMO_CID_REPLACE_YOURS__bi5rspgugqsy", "DEMONAME");
+        storeCID("_DEMO_CID_REPLACE_YOURS_", "_DEMO_NAME_");
     }
 
     function storeCID(string memory cid, string memory name) public {
