@@ -116,11 +116,7 @@ Once the CID is verified and you've downloaded the encrypted file from IPFS, use
 
 ## 📩💬 – Contact Me
 
-Hey!
 If you face any issues or have questions, feel free to reach out:
 
 - 📬 **Telegram**: [@PMofUK](https://t.me/PMofUK)  
-- 📸 **Instagram**: [@adityapatil343](https://www.instagram.com/adityapatil343/)
-
-I'm always happy to help or collaborate! 🤗
 
